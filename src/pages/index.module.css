@@ -1,0 +1,130 @@
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem 2rem 2rem;
+  background-image: url('./img/tradeved.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 18rem;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem 6rem;
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 1200px;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--ifm-font-color-base);
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 0;
+}
+
+.navigation {
+  display: flex;
+  gap: 3rem;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.navCard {
+  flex: 1;
+  display: block;
+  padding: 3rem 2rem;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 16px;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navCard:hover {
+  text-decoration: none;
+  color: inherit;
+  transform: translateY(-6px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 1);
+}
+
+.cardContent {
+  text-align: center;
+  width: 100%;
+}
+
+.cardContent h2 {
+  margin-bottom: 1.5rem;
+  color: var(--ifm-color-primary);
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.cardContent p {
+  margin-bottom: 0;
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.6;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .navigation {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .navCard {
+    height: 180px;
+    padding: 2.5rem 2rem;
+  }
+     
+  .title {
+    font-size: 2.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+  }
+     
+  .main {
+    padding: 1rem;
+    background-attachment: scroll;
+  }
+     
+  .hero {
+    padding: 1.5rem 2rem;
+    margin-top: 1rem;
+    margin-bottom: 11.25rem;
+  }
+  
+  .cardContent h2 {
+    font-size: 1.7rem;
+  }
+  
+  .cardContent p {
+    font-size: 1.1rem;
+  }
+}
