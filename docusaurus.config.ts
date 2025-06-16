@@ -27,7 +27,7 @@ const config: Config = {
           title: 'TradeVed',
           items: [
             { label: 'Docs', to: '/docs' },
-            { label: 'Blog', to: '/Blog' },
+            { label: 'Blog', to: '/blog' },
             { label: 'About Us', to: '/' },
             { label: 'Careers', to: '/' },
             { label: 'Advertise with us', to: '/' },
