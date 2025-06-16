@@ -23,7 +23,7 @@ Key features:
 - Access raw metrics like win rate, drawdown, expectancy, and execution count
 - Review logs, order flow, and edge cases
 
-![TradeVed Demo](/img/Journal.png)
+![TradeVed Demo](/img/journal.png)
 
 This tool is built for accuracy, not convenience — giving you direct control over every test parameter.
 

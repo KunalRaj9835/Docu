@@ -23,7 +23,7 @@ Key features:
 - Tag-based filtering (e.g., setup type, mistake, strategy, sector)
 - Designed to build decision-making awareness, not visual stats
 
-![TradeVed Demo](/img/Journal.png)
+![TradeVed Demo](/img/journal.png)
 
 This tool supports thoughtful execution. Over time, it becomes your personal reference — showing what worked and what didn’t.
 
