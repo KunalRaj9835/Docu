@@ -56,7 +56,7 @@ Key features:
 - View open and closed positions in real-time
 - Stop copying anytime without losing visibility
 
-![TradeVed Demo](/img/Copy.png)
+![TradeVed Demo](/img/copy.png)
 
 This tool is especially useful for observing experienced traders, gaining real-market exposure, and learning from strategy flows.
 
