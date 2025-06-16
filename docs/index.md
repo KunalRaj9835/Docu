@@ -9,17 +9,17 @@ This is the main documentation page for our project.
 
 ## Quick Navigation
 - [Getting Started](./getting-started.md)
-- [Beginner Feature](./docs/Beginner)
-- [Intermediate Features](./docs/Intermediate)
-- [Advanced Features](./docs/Advanced)
-- [Quest](./docs/Quest)
-- [Paper Trading](./docs/paper-trading)
-- [Copy Trading](./docs/copy-trading)
-- [Strategy Visualizer](./docs/strategy-visualizer)
-- [Screener](./docs/Screener)
-- [Backtest](./docs/Backtest)
-- [Strategy to Algo](./docs/strategy-to-algo)
-- [API Reference](./docs/api-reference)
+- [Beginner Feature](./Beginner)
+- [Intermediate Features](./Intermediate)
+- [Advanced Features](./Advanced)
+- [Quest](./Quest)
+- [Paper Trading](./paper-trading)
+- [Copy Trading](./copy-trading)
+- [Strategy Visualizer](./strategy-visualizer)
+- [Screener](./Screener)
+- [Backtest](./Backtest)
+- [Strategy to Algo](./strategy-to-algo)
+- [API Reference](./api-reference)
 
 ## What you'll find here
 
